@@ -8,7 +8,9 @@ https://codepen.io/GeorgePark/full/VXrwOP/
 
 const posts = document.querySelectorAll(".gallery-item");
 
+
 posts.forEach((post) => {
+  console.log(post)
   post.addEventListener("click", () => {
     //Get original image URL
     const imgUrl = post.firstElementChild.src.split("?")[0];

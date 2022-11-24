@@ -216,7 +216,7 @@ img {
     border-bottom-color: transparent;
     border-radius: 50%;
     margin: 0 auto;
-    animation: loader 500ms linear infinite;
+    animation: loader 800ms linear infinite;
 }
 
 /* Media Query */
